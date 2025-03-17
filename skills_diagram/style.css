@@ -1,0 +1,87 @@
+body {
+  margin: 0px 30px;
+}
+
+/* Styling for the main title */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 15px 0;
+  position: relative;
+  margin: 0 0 20px 0;
+}
+
+#tester {
+  text-align: center;
+}
+
+/* Adding an underline effect */
+h1::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #007bff;
+  margin: 0px auto 0;
+  border-radius: 2px;
+}
+
+/* Styling for h3 elements */
+h3 {
+  font-size: 1.75rem;
+  /* Make the text slightly bigger */
+  font-weight: 600;
+  /* Semi-bold text */
+  color: #333;
+  /* Dark color for better readability */
+  margin-bottom: 30px;
+  /* Space below the title */
+  text-transform: capitalize;
+  /* Capitalize the first letter of each word */
+  letter-spacing: 0.5px;
+  /* Slight letter spacing for a modern look */
+  text-align: center;
+}
+
+/* Optional: Add some hover effect */
+h3:hover {
+  color: #007bff;
+  /* Change text color on hover */
+  cursor: pointer;
+  /* Pointer on hover */
+}
+
+/* Style for the competencies section */
+#competencies {
+  background: white;
+  border-radius: 15px;
+  /* Rounded corners */
+  padding: 20px;
+  /* Padding inside the div */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
+  margin-bottom: 20px;
+  /* Margin at the bottom */
+}
+
+/* Style for the skill diagram section */
+#tester1 {
+  margin-left: 1.67%;
+  background: white;
+  border-radius: 15px;
+  /* Rounded corners */
+  padding: 20px;
+  /* Padding inside the div */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
+  margin-bottom: 20px;
+  /* Margin at the bottom */
+}
+
+.page {
+  height: 85vh;
+}

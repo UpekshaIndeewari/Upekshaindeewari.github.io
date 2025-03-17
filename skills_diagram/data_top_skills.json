@@ -1,0 +1,30 @@
+[
+  {
+    "skill": "Remote Sensing",
+    "percentage": 80
+  },
+  {
+    "skill": "Geographic Infromation System (GIS)",
+    "percentage": 80
+  },
+  {
+    "skill": "Data Visualization",
+    "percentage": 75
+  },
+  {
+    "skill": "Python",
+    "percentage": 75
+  },
+  {
+    "skill": "SQL",
+    "percentage": 70
+  },
+  {
+    "skill": "Machine Learning",
+    "percentage": 80
+  },
+  {
+    "skill": "Database Management",
+    "percentage": 75
+  }
+]

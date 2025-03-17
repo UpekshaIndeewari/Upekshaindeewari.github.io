@@ -1,0 +1,495 @@
+{"data":[{
+  "ids" : "Soft Skills",
+  "labels" : "Soft Skills",
+  "parents" : "Skills"
+},
+{
+  "ids" : "Skills",
+  "labels" : "Skills",
+  "parents" : null
+},
+{
+  "ids" : "Soft Skills-Analytical Thinking",
+  "labels" : "Analytical Thinking",
+  "parents" : "Soft Skills"
+},
+{
+  "ids" : "Soft Skills-Problem Solving",
+  "labels" : "Problem Solving",
+  "parents" : "Soft Skills"
+},
+{
+  "ids" : "Soft Skills-Communication",
+  "labels" : "Communication",
+  "parents" : "Soft Skills"
+},
+{
+  "ids" : "Soft Skills-Independent",
+  "labels" : "Independent",
+  "parents" : "Soft Skills"
+},
+{
+  "ids" : "Soft Skills-Enthusiastic",
+  "labels" : "Enthusiastic",
+  "parents" : "Soft Skills"
+},
+{
+  "ids" : "Soft Skills-Project Management",
+  "labels" : "Project Management",
+  "parents" : "Soft Skills"
+},
+{
+  "ids" : "Soft Skills-Leadership",
+  "labels" : "Leadership",
+  "parents" : "Soft Skills"
+},
+{
+  "ids" : "Soft Skills-Teamwork",
+  "labels" : "Teamwork",
+  "parents" : "Soft Skills"
+},
+{
+  "ids" : "Hard Skills-Geospatial Technology",
+  "labels" : "Geospatial Technology",
+  "parents" : "Skills"
+},
+{
+  "ids" : "Hard Skills-Data Science",
+  "labels" : "Data Science",
+  "parents" : "Skills"
+},
+{
+  "ids" : "Hard Skills-Database",
+  "labels" : "Database",
+  "parents" : "Skills"
+},
+{
+  "ids" : "Hard Skills-Programming Language",
+  "labels" : "Programming Language",
+  "parents" : "Skills"
+},
+{
+  "ids" : "Hard Skills-IDE",
+  "labels" : "IDE",
+  "parents" : "Skills"
+},
+{
+  "ids" : "Hard Skills-Web Development",
+  "labels" : "Web Development",
+  "parents" : "Skills"
+},
+{
+  "ids" : "Hard Skills-BI tools",
+  "labels" : "BI tools",
+  "parents" : "Skills"
+},
+{
+  "ids" : "Hard Skills-Version Control",
+  "labels" : "Version Control",
+  "parents" : "Skills"
+},
+{
+  "ids" : "Hard Skills-Cloud",
+  "labels" : "Cloud",
+  "parents" : "Skills"
+},
+{
+  "ids" : "Hard Skills-Mathematics",
+  "labels" : "Mathematics",
+  "parents" : "Skills"
+},
+{
+  "ids" : "Hard Skills-Computer Aided Design",
+  "labels" : "Computer Aided Design",
+  "parents" : "Skills"
+},
+{
+  "ids" : "Hard Skills-Machine Learning",
+  "labels" : "Machine Learning",
+  "parents" : "Skills"
+},
+{
+  "ids" : "Geospatial Technology-ArcGIS Suite",
+  "labels" : "ArcGIS Suite",
+  "parents" : "Hard Skills-Geospatial Technology"
+},
+{
+  "ids" : "Geospatial Technology-Geospatial software",
+  "labels" : "Geospatial software",
+  "parents" : "Hard Skills-Geospatial Technology"
+},
+{
+  "ids" : "Geospatial Technology-Field Data",
+  "labels" : "Field Data",
+  "parents" : "Hard Skills-Geospatial Technology"
+},
+{
+  "ids" : "Geospatial Technology-OGC Standard",
+  "labels" : "OGC Standard",
+  "parents" : "Hard Skills-Geospatial Technology"
+},
+{
+  "ids" : "Data Science-Data Visualization",
+  "labels" : "Data Visualization",
+  "parents" : "Hard Skills-Data Science"
+},
+{
+  "ids" : "Data Science-Data Manipulation",
+  "labels" : "Data Manipulation",
+  "parents" : "Hard Skills-Data Science"
+},
+{
+  "ids" : "Data Science-Geospatial Visualization",
+  "labels" : "Geospatial Visualization",
+  "parents" : "Hard Skills-Data Science"
+},
+{
+  "ids" : "Data Science-File Format",
+  "labels" : "File Format",
+  "parents" : "Hard Skills-Data Science"
+},
+{
+  "ids" : "Data Science-ETL Process",
+  "labels" : "ETL Process",
+  "parents" : "Hard Skills-Data Science"
+},
+{
+  "ids" : "Database-Relational",
+  "labels" : "Relational",
+  "parents" : "Hard Skills-Database"
+},
+{
+  "ids" : "Database-Non relational",
+  "labels" : "Non relational",
+  "parents" : "Hard Skills-Database"
+},
+{
+  "ids" : "Database-Spatial",
+  "labels" : "Spatial",
+  "parents" : "Hard Skills-Database"
+},
+{
+  "ids" : "Programming Language-Python",
+  "labels" : "Python",
+  "parents" : "Hard Skills-Programming Language"
+},
+{
+  "ids" : "Programming Language-R",
+  "labels" : "R",
+  "parents" : "Hard Skills-Programming Language"
+},
+{
+  "ids" : "Programming Language-Java Script",
+  "labels" : "Java Script",
+  "parents" : "Hard Skills-Programming Language"
+},
+{
+  "ids" : "Programming Language-SQL",
+  "labels" : "SQL",
+  "parents" : "Hard Skills-Programming Language"
+},
+{
+  "ids" : "IDE-VS Code",
+  "labels" : "VS Code",
+  "parents" : "Hard Skills-IDE"
+},
+{
+  "ids" : "IDE-Jupyter Notebook",
+  "labels" : "Jupyter Notebook",
+  "parents" : "Hard Skills-IDE"
+},
+{
+  "ids" : "IDE-RStudio",
+  "labels" : "RStudio",
+  "parents" : "Hard Skills-IDE"
+},
+{
+  "ids" : "IDE-Anaconda Navigator",
+  "labels" : "Anaconda Navigator",
+  "parents" : "Hard Skills-IDE"
+},
+{
+  "ids" : "IDE-Google Colab",
+  "labels" : "Google Colab",
+  "parents" : "Hard Skills-IDE"
+},
+{
+  "ids" : "Web Development-Technologies",
+  "labels" : "Technologies",
+  "parents" : "Hard Skills-Web Development"
+},
+{
+  "ids" : "Web Development-Frameworks",
+  "labels" : "Frameworks",
+  "parents" : "Hard Skills-Web Development"
+},
+{
+  "ids" : "Web Development-Web Scraping",
+  "labels" : "Web Scraping",
+  "parents" : "Hard Skills-Web Development"
+},
+{
+  "ids" : "Web Development-API",
+  "labels" : "API",
+  "parents" : "Hard Skills-Web Development"
+},
+{
+  "ids" : "BI tools-Tableau",
+  "labels" : "Tableau",
+  "parents" : "Hard Skills-BI tools"
+},
+{
+  "ids" : "BI tools-Microsoft Excel",
+  "labels" : "Microsoft Excel",
+  "parents" : "Hard Skills-BI tools"
+},
+{
+  "ids" : "BI tools-Microsoft Office",
+  "labels" : "Microsoft Office",
+  "parents" : "Hard Skills-BI tools"
+},
+{
+  "ids" : "BI tools-Trello",
+  "labels" : "Trello",
+  "parents" : "Hard Skills-BI tools"
+},
+{
+  "ids" : "Version Control-GitHub",
+  "labels" : "GitHub",
+  "parents" : "Hard Skills-Version Control"
+},
+{
+  "ids" : "Version Control-Git",
+  "labels" : "Git",
+  "parents" : "Hard Skills-Version Control"
+},
+{
+  "ids" : "Cloud-Google Earth Engine",
+  "labels" : "Google Earth Engine",
+  "parents" : "Hard Skills-Cloud"
+},
+{
+  "ids" : "Mathematics-Calculus",
+  "labels" : "Calculus",
+  "parents" : "Hard Skills-Mathematics"
+},
+{
+  "ids" : "Mathematics-Linear Algebra",
+  "labels" : "Linear Algebra",
+  "parents" : "Hard Skills-Mathematics"
+},
+{
+  "ids" : "Mathematics-Mathematics",
+  "labels" : "Mathematics",
+  "parents" : "Hard Skills-Mathematics"
+},
+{
+  "ids" : "Mathematics-Statistics",
+  "labels" : "Statistics",
+  "parents" : "Hard Skills-Mathematics"
+},
+{
+  "ids" : "Computer Aided Design -AutoCAD",
+  "labels" : "AutoCAD",
+  "parents" : "Hard Skills-Computer Aided Design"
+},
+{
+  "ids" : "Machine Learning-Scikit Learn",
+  "labels" : "Scikit Learn",
+  "parents" : "Hard Skills-Machine Learning"
+},
+{
+  "ids" : "ArcGIS Suite-ArcGIS Online",
+  "labels" : "ArcGIS Online",
+  "parents" : "Geospatial Technology-ArcGIS Suite"
+},
+{
+  "ids" : "ArcGIS Suite-ArcGIS Pro",
+  "labels" : "ArcGIS Pro",
+  "parents" : "Geospatial Technology-ArcGIS Suite"
+},
+{
+  "ids" : "ArcGIS Suite-ArcMap",
+  "labels" : "ArcMap",
+  "parents" : "Geospatial Technology-ArcGIS Suite"
+},
+{
+  "ids" : "ArcGIS Suite-ArcGIS Story Map",
+  "labels" : "ArcGIS Story Map",
+  "parents" : "Geospatial Technology-ArcGIS Suite"
+},
+{
+  "ids" : "ArcGIS Suite-ArcGIS WebApp",
+  "labels" : "ArcGIS WebApp",
+  "parents" : "Geospatial Technology-ArcGIS Suite"
+},
+{
+  "ids" : "Geospatial software-QGIS",
+  "labels" : "QGIS",
+  "parents" : "Geospatial Technology-Geospatial software"
+},
+{
+  "ids" : "Geospatial software-ERDAS Imagine",
+  "labels" : "ERDAS Imagine",
+  "parents" : "Geospatial Technology-Geospatial software"
+},
+{
+  "ids" : "Field Data-GPS",
+  "labels" : "GPS",
+  "parents" : "Geospatial Technology-Field Data"
+},
+{
+  "ids" : "Field Data-ArcGIS Survey 123",
+  "labels" : "ArcGIS Survey 123",
+  "parents" : "Geospatial Technology-Field Data"
+},
+{
+  "ids" : "Field Data-Drone Piloting",
+  "labels" : "Drone Piloting",
+  "parents" : "Geospatial Technology-Field Data"
+},
+{
+  "ids" : "OGC Standard-WMS",
+  "labels" : "WMS",
+  "parents" : "Geospatial Technology-OGC Standard"
+},
+{
+  "ids" : "OGC Standard-WFS",
+  "labels" : "WFS",
+  "parents" : "Geospatial Technology-OGC Standard"
+},
+{
+  "ids" : "OGC Standard- WCS",
+  "labels" : "WCS",
+  "parents" : "Geospatial Technology-OGC Standard"
+},
+{
+  "ids" : "Data Visualization-Dash",
+  "labels" : "Dash",
+  "parents" : "Data Science-Data Visualization"
+},
+{
+  "ids" : "Data Visualization-ggplot2",
+  "labels" : "ggplot2",
+  "parents" : "Data Science-Data Visualization"
+},
+{
+  "ids" : "Data Visualization-Matplotlib",
+  "labels" : "Matplotlib",
+  "parents" : "Data Science-Data Visualization"
+},
+{
+  "ids" : "Data Visualization-Plotly",
+  "labels" : "Plotly",
+  "parents" : "Data Science-Data Visualization"
+},
+{
+  "ids" : "Data Visualization-Seaborn",
+  "labels" : "Seaborn",
+  "parents" : "Data Science-Data Visualization"
+},
+{
+  "ids" : "Data Manipulation-NumPy",
+  "labels" : "NumPy",
+  "parents" : "Data Science-Data Manipulation"
+},
+{
+  "ids" : "Data Manipulation-Pandas",
+  "labels" : "Pandas",
+  "parents" : "Data Science-Data Manipulation"
+},
+{
+  "ids" : "Data Manipulation-Rasterio",
+  "labels" : "Rasterio",
+  "parents" : "Data Science-Data Manipulation"
+},
+{
+  "ids" : "Geospatial Visualization-Folium",
+  "labels" : "Folium",
+  "parents" : "Data Science-Geospatial Visualization"
+},
+{
+  "ids" : "Geospatial Visualization-Leaflet.js",
+  "labels" : "Leaflet.js",
+  "parents" : "Data Science-Geospatial Visualization"
+},
+{
+  "ids" : "Geospatial Visualization-Geopanda",
+  "labels" : "Geopanda",
+  "parents" : "Data Science-Geospatial Visualization"
+},
+{
+  "ids" : "File Format-KML",
+  "labels" : "KML",
+  "parents" : "Data Science-File Format"
+},
+{
+  "ids" : "File Format-JSON",
+  "labels" : "JSON",
+  "parents" : "Data Science-File Format"
+},
+{
+  "ids" : "File Format-GeoJson",
+  "labels" : "GeoJson",
+  "parents" : "Data Science-File Format"
+},
+{
+  "ids" : "ETL Process-FME",
+  "labels" : "FME",
+  "parents" : "Data Science-ETL Process"
+},
+{
+  "ids" : "Relational-MySQL",
+  "labels" : "MySQL",
+  "parents" : "Database-Relational"
+},
+{
+  "ids" : "Relational-PostgreSQL",
+  "labels" : "PostgreSQL",
+  "parents" : "Database-Relational"
+},
+{
+  "ids" : "Relational-SQL",
+  "labels" : "SQL",
+  "parents" : "Database-Relational"
+},
+{
+  "ids" : "Non relational-NoSQL",
+  "labels" : "NoSQL",
+  "parents" : "Database-Non relational"
+},
+{
+  "ids" : "Spatial-PostGIS",
+  "labels" : "PostGIS",
+  "parents" : "Database-Spatial"
+},
+{
+  "ids" : "Technologies-HTML",
+  "labels" : "HTML",
+  "parents" : "Web Development-Technologies"
+},
+{
+  "ids" : "Technologies-CSS",
+  "labels" : "CSS",
+  "parents" : "Web Development-Technologies"
+},
+{
+  "ids" : "Frameworks-Boostrap",
+  "labels" : "Boostrap",
+  "parents" : "Web Development-Frameworks"
+},
+{
+  "ids" : "Frameworks-Flask",
+  "labels" : "Flask",
+  "parents" : "Web Development-Frameworks"
+},
+{
+  "ids" : "Web Scraping-Beautiful soup",
+  "labels" : "Beautiful soup",
+  "parents" : "Web Development-Web Scraping"
+},
+{
+  "ids" : "API-Rest APIs",
+  "labels" : "Rest APIs",
+  "parents" : "Web Development-API"
+}]}
