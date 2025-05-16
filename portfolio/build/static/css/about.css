@@ -1,0 +1,171 @@
+.aboutSection {
+   min-height: 100vh;
+   background-color: rgb(245, 245, 245);
+   padding: 0px;
+   margin: 0px;
+   width: 100%;
+}
+
+.profileImg {
+   width: 27vw;
+   height: auto;
+   object-fit: cover;
+   margin-bottom: 0px;
+}
+
+.aboutHeading {
+   position: relative;
+   padding-bottom: 15px;
+   font-size: 2.5rem;
+   color: #000000;
+   font-weight: 700;
+   padding-top: 90px;
+}
+
+.aboutHeading::after {
+   content: "";
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 90px;
+   height: 5px;
+   background: rgb(24, 119, 242);
+}
+
+.aboutSection h2 {
+   margin-top: 1rem;
+   color: black;
+   font-weight: 700;
+}
+
+.aboutSection h3 {
+   margin-bottom: 1rem;
+   margin-top: 1rem;
+   color: black;
+   font-size: 1.3rem;
+}
+
+.aboutSection p {
+   font-size: 1.14rem;
+   color: black;
+}
+
+.item {
+   font-size: 1.14rem;
+   margin-bottom: 0.5rem;
+   color: black;
+}
+
+.highlight {
+   font-weight: 600;
+   font-size: 1.14rem;
+   color: rgb(24, 119, 242);
+   display: inline-block;
+   min-width: 100px;
+}
+
+.social-icons {
+   display: flex;
+   align-items: center;
+}
+
+.social-icon {
+   color: #646363;
+   transition: all 0.3s ease;
+   text-decoration: none;
+   margin-inline-end: 1rem;
+}
+
+.custom-icon {
+   font-size: 2.5rem;
+}
+
+.social-icon:hover {
+   transform: translateY(-3px);
+   color: rgb(24, 119, 242);
+}
+
+.cv-button {
+   font-size: 1rem;
+   margin: 20px;
+   margin-left: 0px;
+}
+
+
+@media (min-width: 1400px) {
+   .aboutSection {
+      min-height: 30vh;
+   }
+
+   .social-icons {
+      margin-bottom: 15px;
+   }
+
+   .profileImg {
+      width: 30vw;
+      height: auto;
+      margin-bottom: 10px;
+   }
+}
+
+@media (max-width: 1200px) {
+   .aboutSection {
+      min-height: 30vh;
+   }
+
+   .social-icons {
+      margin-bottom: 15px;
+   }
+
+   .profileImg {
+      width: 35vw;
+      height: auto;
+      margin-bottom: 10px;
+   }
+}
+
+
+@media (max-width: 992px) {
+   .aboutSection {
+      min-height: 50vh;
+   }
+
+   .social-icons {
+      margin-bottom: 15px;
+   }
+
+   .profileImg {
+      width: 40vw;
+      height: auto;
+      margin-bottom: 10px;
+   }
+}
+
+@media (max-width: 768px) {
+   .aboutSection {
+      min-height: 80vh;
+   }
+
+   .social-icons {
+      margin-bottom: 15px;
+   }
+
+   .profileImg {
+      width: 50vw;
+      height: auto;
+      margin-bottom: 10px;
+   }
+}
+
+@media (max-width: 576px) {
+   .profileImg {
+      width: 60vw;
+      height: auto;
+      margin-bottom: 10px;
+   }
+
+   .social-icons {
+      margin-bottom: 15px;
+   }
+}

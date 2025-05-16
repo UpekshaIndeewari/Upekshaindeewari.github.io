@@ -1,0 +1,68 @@
+.homeSection {
+   padding: 0;
+   text-align: center;
+   min-height: 100vh;
+   width: 100%;
+   margin: 0;
+   background-image: url('/static/images/home/background.jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   color: white;
+   position: relative;
+   display: flex !important;
+   align-items: center !important;
+}
+
+.Container {
+   padding: 0;
+   margin-top: 60px;
+   margin-left: 50px;
+   text-align: left;
+   width: 100%;
+}
+
+.homeSection h6 {
+   font-size: 1.8rem;
+}
+
+.homeSection h1 {
+   font-size: 4rem;
+}
+
+.homeSection p {
+   font-size: 1.2rem;
+}
+
+.btn-primary {
+   font-size: 1.1rem;
+}
+
+@media (min-width: 1000px) and (min-height:1300px) {
+   .homeSection h6 {
+      font-size: 2.7rem;
+   }
+
+   .homeSection h1 {
+      font-size: 3.8rem;
+   }
+
+   .homeSection p {
+      font-size: 2rem;
+   }
+
+   .btn-primary {
+      font-size: 1.5rem;
+   }
+}
+
+@media (max-width: 576px) {
+   .homeSection h1 {
+      font-size: 2.8rem;
+   }
+
+   .homeSection p {
+      font-size: 1rem;
+   }
+}

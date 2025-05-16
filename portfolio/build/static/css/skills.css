@@ -1,0 +1,144 @@
+.skillsSection {
+   min-height: 100vh;
+   background-color: rgb(245, 245, 245);
+   padding: 0px;
+   margin: 0px;
+   width: 100%;
+   overflow-x: hidden;
+}
+
+.aboutSkills {
+   position: relative;
+   padding-bottom: 15px;
+   font-size: 2.5rem;
+   color: #000000;
+   font-weight: 700;
+   padding-top: 90px;
+}
+
+.aboutSkills::after {
+   content: "";
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 90px;
+   height: 5px;
+   background: rgb(24, 119, 242);
+}
+
+.skillHeading {
+   color: #000000;
+}
+
+
+#sunburst-chart {
+   height: 600px;
+   width: 100%;
+   margin: 0;
+}
+
+.progress {
+   height: 20px;
+   margin-bottom: 15px;
+   font-weight: 700;
+   background-color: #afadad;
+}
+
+.progress-bar {
+   color: #000000;
+   font-size: 1.0rem;
+   background-color: rgb(24, 119, 242);
+}
+
+
+
+.expert-icon {
+   font-size: 3.0rem;
+   margin-bottom: 15px;
+   color: #020811;
+}
+
+.expert-desc-box {
+   padding: 0px;
+   margin-bottom: 15px;
+   overflow: hidden;
+}
+
+.expert-icon {
+   font-size: 3rem;
+   color: rgb(0, 0, 0);
+   margin-bottom: 5px;
+
+}
+
+.expert-desc-box h4 {
+   font-size: 1.5rem;
+   color: #000000;
+   margin-bottom: 0;
+}
+
+.expert-desc-box p {
+   color: #000000;
+   margin-bottom: 0;
+   line-height: 1.6;
+   font-size: 1.14rem;
+}
+
+
+.expert-logo-box:hover {
+   background-color: rgb(24, 119, 242);
+}
+
+.expert-logo-box {
+   width: 70px;
+   height: 70px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #b3b3b3;
+   border-radius: 8px;
+}
+
+#skills-container {
+   width: 60vw;
+   justify-content: center;
+   align-items: center;
+   overflow-x: hidden;
+}
+
+@media (min-width: 1400px) {
+   .skillsSection {
+      min-height: 40vh;
+   }
+
+}
+
+@media (max-width: 1400px) {
+   .skillsSection {
+      min-height: 40vh;
+   }
+
+}
+
+@media (max-width: 1200px) {
+   .skillsSection {
+      min-height: 40vh;
+   }
+}
+
+@media (max-width: 576px) {
+   .expert-desc-box h4 {
+      font-size: 1.3rem;
+   }
+
+   .expert-desc-box p {
+      font-size: 1rem;
+   }
+
+   #sunburst-chart {
+      height: 450px;
+      width: 100%;
+
+   }
+}

@@ -1,0 +1,146 @@
+.resumeSection {
+   min-height: 100vh;
+   background-color: #ffffff;
+   padding: 0;
+   margin: 0px;
+   width: 100%;
+}
+
+
+.aboutHeading {
+   position: relative;
+   padding-bottom: 15px;
+   font-size: 2.5rem;
+   color: #000000;
+   font-weight: 700;
+   padding-top: 90px;
+}
+
+.aboutHeading::after {
+   content: "";
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 90px;
+   height: 5px;
+   background: rgb(24, 119, 242);
+}
+
+.resumeEducation {
+   background: #c5cacf;
+   padding: 25px;
+   border-radius: 12px;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.01);
+   transition: all 0.3s ease;
+   text-align: left;
+   margin-bottom: 30px;
+   margin-left: 30px;
+}
+
+.resumeJob {
+   background: #c5cacf;
+   padding: 25px;
+   border-radius: 12px;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.01);
+   transition: all 0.3s ease;
+   text-align: left;
+   margin-bottom: 30px;
+   margin-left: 30px;
+}
+
+.resumeEducation:hover,
+.resumeJob:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.07);
+}
+
+.resumeEducation h5,
+.resumeJob h5 {
+   color: #000000;
+   font-size: 1.3rem;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-weight: 700;
+}
+
+.instituteName {
+   color: #000000;
+   font-weight: 700;
+   margin-bottom: 10px;
+   font-size: 1rem;
+}
+
+.resumeEducation p,
+.resumeJob p {
+   color: #000000;
+   line-height: 1.6;
+   margin-bottom: 10px;
+   font-size: 1.14rem;
+}
+
+.resumeEducation p span,
+.resumeJob p span {
+   display: inline;
+   color: #000000;
+   font-weight: 600;
+}
+
+.yearTag {
+   background-color: rgb(24, 119, 242);
+   padding: 3px 10px;
+   border-radius: 20px;
+   display: inline-block;
+   margin-bottom: 15px;
+   font-weight: 700;
+   color: #000000;
+}
+
+.textCenter {
+   color: #000000;
+   text-align: center;
+}
+
+@media (min-width: 1400px) {
+   .resumeSection {
+      min-height: 50vh;
+   }
+
+}
+
+@media (max-width: 1400px) {
+   .resumeSection {
+      min-height: 50vh;
+   }
+
+}
+
+@media (max-width: 1200px) {
+   .resumeSection {
+      min-height: 60vh;
+   }
+
+}
+
+@media (max-width: 992px) {
+   .resumeSection {
+      min-height: 60vh;
+   }
+
+}
+
+@media (max-width: 768px) {
+
+   .resumeJob,
+   .resumeEducation {
+      margin-left: 5px;
+   }
+}
+
+@media (max-width: 576px) {
+
+   .resumeJob,
+   .resumeEducation {
+      margin-left: 5px;
+   }
+}

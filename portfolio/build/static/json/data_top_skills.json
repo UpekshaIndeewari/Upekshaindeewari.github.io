@@ -1,0 +1,34 @@
+[
+  {
+    "skill": "Python",
+    "percentage": 80
+  },
+  {
+    "skill": "JavaScript",
+    "percentage": 75
+  },
+  {
+    "skill": "R",
+    "percentage": 70
+  },
+  {
+    "skill": "SQL",
+    "percentage": 80
+  },
+  {
+    "skill": "ArcGIS Suite (ArcGIS Pro, ArcGIS Online)",
+    "percentage": 80
+  },
+  {
+    "skill": "QGIS",
+    "percentage": 80
+  },
+  {
+    "skill": "AWS",
+    "percentage": 80
+  },
+  {
+    "skill": "FME",
+    "percentage": 80
+  }
+]

@@ -1,0 +1,159 @@
+.contactSection {
+   min-height: 100vh;
+   background-color: #ffffff;
+   padding: 0px;
+   margin: 0px;
+   width: 100%;
+   overflow-x: hidden;
+}
+
+.aboutContact {
+   position: relative;
+   padding-bottom: 15px;
+   font-size: 2.5rem;
+   color: #000000;
+   font-weight: 700;
+   padding-top: 90px;
+}
+
+
+.aboutContact::after {
+   content: "";
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 90px;
+   height: 5px;
+   background: rgb(24, 119, 242);
+}
+
+/*#contact .card {
+   border: none;
+   border-radius: 10px;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+   height: 100%;
+   transition: all 0.3s ease;
+   background-color: #93b0ff;
+}
+
+/*#contact .card:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}*/
+#contact h3 {
+   color: #000000;
+}
+
+#contact p {
+   color: #000000;
+   font-size: 1.14rem;
+   margin-bottom: 1.2rem;
+}
+
+.contact-details p {
+   color: #000000;
+   font-size: 1.14rem;
+   margin-bottom: 1.2rem;
+}
+
+.contact-details i {
+   color: #3498db;
+   width: 20px;
+   text-align: center;
+   margin: 3px;
+}
+
+.social-links h5 {
+   color: #000000;
+   font-size: 1.2rem;
+   margin-bottom: 1.2rem;
+}
+
+.social-links a {
+   color: #656666;
+   transition: all 0.3s ease;
+   display: inline-block;
+   padding: 4px;
+}
+
+.social-links a:hover {
+   color: #3498db;
+   transform: translateY(-3px);
+}
+
+#contactForm .form-label {
+   font-weight: 500;
+   color: #000000;
+}
+
+#contactForm .form-control {
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   padding: 12px 15px;
+   font-size: 1rem;
+   transition: all 0.3s;
+}
+
+#contactForm .form-control:focus {
+   border-color: #3498db;
+   box-shadow: 0 0 0 0.25rem rgba(52, 152, 219, 0.25);
+}
+
+#contactForm textarea.form-control {
+   min-height: 150px;
+}
+
+.btn-primary {
+   background-color: #3498db;
+   border: none;
+   padding: 12px 30px;
+   font-weight: 500;
+   letter-spacing: 0.5px;
+   transition: all 0.3s;
+}
+
+.btn-primary:hover {
+   background-color: #2179b4;
+   transform: translateY(-2px);
+}
+
+#formSuccess {
+   font-size: 1.1rem;
+   font-weight: 500;
+}
+
+@media (min-width: 1400px) {
+   .contactSection {
+      min-height: 30vh;
+   }
+
+}
+
+@media (max-width: 1400px) {
+   .contactSection {
+      min-height: 30vh;
+   }
+
+}
+
+@media (max-width: 1200px) {
+   .contactSection {
+      min-height: 30vh;
+   }
+
+}
+
+@media (max-width: 992px) {
+   .contactSection {
+      min-height: 30vh;
+   }
+
+}
+
+@media (max-width: 768px) {
+   .contactSection {
+      min-height: 50vh;
+   }
+
+}

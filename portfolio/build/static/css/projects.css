@@ -1,0 +1,108 @@
+.projectsSection {
+   min-height: 100vh;
+   background-color: rgb(245, 245, 245);
+   padding: 30px;
+   margin: 0px;
+   width: 100%;
+   overflow-x: hidden;
+}
+
+
+.project-item {
+   transition: all 0.3s ease;
+   padding: 10;
+}
+
+.card {
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   transition: transform 0.3s ease;
+}
+
+
+.card-title {
+   font-size: 1.2rem;
+   margin-bottom: 0.75rem;
+}
+
+.card-text {
+   font-size: 1.14rem;
+   color: #000000;
+}
+
+.aboutProjects {
+   position: relative;
+   padding-bottom: 15px;
+   font-size: 2.5rem;
+   color: #000000;
+   font-weight: 700;
+   padding-top: 90px;
+}
+
+.aboutProjects::after {
+   content: "";
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 90px;
+   height: 5px;
+   background: rgb(24, 119, 242);
+}
+
+.projects-container {
+   align-items: center;
+   object-fit: cover;
+
+}
+
+.filter-btn {
+   margin: 2px;
+   border-radius: 20px;
+   padding: 8px 20px;
+   font-weight: 500;
+}
+
+.project-card {
+   border: none;
+   border-radius: 10px;
+   overflow: hidden;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   transition: all 0.3s ease;
+   height: 100%;
+   margin-bottom: 30px;
+
+}
+
+.card-img-top {
+   object-fit: cover;
+}
+
+.project-tools {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 6px;
+   margin-top: 12px;
+}
+
+.tool-badge {
+   font-size: 0.9rem;
+   padding: 4px 10px;
+   border-radius: 15px;
+   background-color: rgb(144, 150, 158);
+   color: #000000;
+   font-weight: 500;
+}
+
+@media (min-width: 1400px) {
+   .projectsSection {
+      min-height: 60vh;
+   }
+
+}
+
+@media (max-width: 1400px) {
+   .projectsSection {
+      min-height: 60vh;
+   }
+
+}
