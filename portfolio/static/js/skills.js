@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
    }
 
    // Load skill bars
-   loadJSON("/static/json/data_top_skills.json")
+   loadJSON("static/json/data_top_skills.json")
       .then(data => {
          const container = document.getElementById("skills-container");
          data.forEach(item => {
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
    // Load sunburst chart
-   loadJSON("/static/json/data_skills.json")
+   loadJSON("static/json/data_skills.json")
       .then(json => {
          // Properly use all destructured variables
          const sunburstData = [{
