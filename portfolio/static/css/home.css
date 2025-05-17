@@ -4,7 +4,7 @@
    min-height: 100vh;
    width: 100%;
    margin: 0;
-   background-image: url('/portfolio/static/images/home/background.jpg');
+   background-image: url('portfolio/static/images/home/background.jpg');
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
