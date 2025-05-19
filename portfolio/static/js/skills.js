@@ -61,6 +61,13 @@ document.addEventListener("DOMContentLoaded", function () {
             plot_bgcolor: "rgba(0,0,0,0)",
          };
 
+         const config = {
+            responsive: true,
+            displaylogo: false,        // This removes the Plotly logo
+            modeBarButtonsToRemove: ['toImage'],  // This removes the "Download as PNG" button
+            displayModeBar: false      // This completely hides the mode bar (including all buttons)
+         };
+
          Plotly.newPlot("sunburst-chart", sunburstData, layout, { responsive: true });
       })
 
