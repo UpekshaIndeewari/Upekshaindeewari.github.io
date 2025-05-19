@@ -43,11 +43,8 @@ nav {
 }
 
 @media (max-width: 992px) {
-
-   /* Bootstrap's lg breakpoint */
-   #mainNavbar {
+   .navbar-collapse {
       background-color: #000 !important;
-      /* Always black on mobile */
    }
 
 
