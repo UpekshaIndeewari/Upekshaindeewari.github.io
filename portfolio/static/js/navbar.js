@@ -56,4 +56,43 @@ document.addEventListener('DOMContentLoaded', function () {
          }
       });
    });
+
+   // Track mobile menu state
+   let isMenuOpen = false;
+
+   // Handle scroll events
+   window.addEventListener('scroll', function () {
+      if (window.scrollY > 10) {
+         navbar.classList.add('scrolled');
+      } else if (!isMenuOpen) { // Only remove if menu isn't open
+         navbar.classList.remove('scrolled');
+      }
+   });
+
+   // Handle menu toggle
+   navbarToggler.addEventListener('click', function () {
+      isMenuOpen = !isMenuOpen;
+      navbar.classList.toggle('menu-open', isMenuOpen);
+
+      // Force black background when menu is open
+      if (isMenuOpen) {
+         navbar.classList.add('scrolled');
+      } else if (window.scrollY <= 10) {
+         navbar.classList.remove('scrolled');
+      }
+   });
+
+   // Close menu when clicking links (mobile)
+   document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', function () {
+         if (window.innerWidth <= 992) {
+            navbarToggler.click();
+         }
+      });
+   });
+
+   // Initialize state
+   if (window.scrollY > 10) {
+      navbar.classList.add('scrolled');
+   }
 });
