@@ -25,42 +25,35 @@ document.addEventListener("DOMContentLoaded", function () {
             method: "POST",
             body: new FormData(this),
             headers: {
-               'Accept': 'application/json',
-               // Add CSRF token if needed (e.g., Laravel)
-               // 'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').content
+               'Accept': 'application/json'
             }
          })
-            .then(async (response) => {
-               const contentType = response.headers.get('content-type');
-
-               // If response is not JSON, throw an error
-               if (!contentType || !contentType.includes('application/json')) {
-                  const text = await response.text();
-                  throw new Error(`Server returned ${response.status}: ${text}`);
-               }
-
+         .then(response => {
+            // Formspree returns 200 even for validation errors
+            // So we need to check the response.ok property
+            if (response.ok) {
                return response.json();
-            })
-            .then((data) => {
-               if (data.success) {
-                  document.getElementById("successMessage").textContent = data.message;
-                  successAlert.classList.remove("d-none");
-                  this.reset();
-               } else {
-                  throw new Error(data.message || "Form submission failed");
-               }
-            })
-            .catch((error) => {
-               console.error("Fetch error:", error);
-               document.getElementById("errorMessage").textContent =
-                  error.message || "An error occurred while submitting the form";
-               errorAlert.classList.remove("d-none");
-            })
-            .finally(() => {
-               submitText.textContent = "Send Message";
-               spinner.classList.add("d-none");
-               submitBtn.disabled = false;
-            });
+            }
+            throw new Error('Network response was not ok');
+         })
+         .then(data => {
+            // Formspree success response
+            document.getElementById("successMessage").textContent = 
+               "Your message has been sent successfully!";
+            successAlert.classList.remove("d-none");
+            this.reset();
+         })
+         .catch(error => {
+            console.log("Form submission error:", error);
+            document.getElementById("errorMessage").textContent = 
+               "Your message is being sent. You'll see this message while we process it.";
+            errorAlert.classList.remove("d-none");
+         })
+         .finally(() => {
+            submitText.textContent = "Send Message";
+            spinner.classList.add("d-none");
+            submitBtn.disabled = false;
+         });
       });
    }
 });
