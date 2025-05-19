@@ -38,6 +38,10 @@
    margin: 0;
 }
 
+.modebar {
+   display: none !important;
+}
+
 .progress {
    height: 20px;
    margin-bottom: 15px;
