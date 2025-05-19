@@ -13,6 +13,15 @@ nav {
    background-color: #000 !important;
 }
 
+#mainNavbar.navbar-expanded {
+   background-color: #000 !important;
+}
+
+#mainNavbar .navbar-collapse.show {
+   background-color: #000 !important;
+}
+
+
 .navbar-collapse {
    justify-content: flex-end !important;
 }
