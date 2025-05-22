@@ -32,12 +32,6 @@ nav {
    color: rgb(255, 255, 255) !important;
 }
 
-.navbar-logo {
-   height: 50px;
-   width: auto;
-   transition: all 0.3s ease;
-}
-
 .navbar-brand {
    margin-left: 25px;
 }
@@ -50,14 +44,23 @@ nav {
    margin-left: 25px;
 }
 
+.navbar-logo {
+   height: 50px;
+   width: auto;
+   transition: all 0.3s ease;
+}
+
 .navbar-toggler:focus {
    box-shadow: none !important;
 }
 
+
 @media (max-width: 992px) {
+
+   /* Bootstrap's lg breakpoint */
    .navbar-collapse {
       background-color: #000 !important;
+      /* Always black on mobile */
    }
-
 
 }
