@@ -42,11 +42,12 @@
 }
 
 .homeSection p {
-   font-size: 1.2rem;
+   font-size: 1.5rem;
 }
 
 .btn-primary {
    font-size: 1.1rem;
+   background-color: rgb(24, 119, 242);
 }
 
 @media (min-width: 1000px) and (min-height:1300px) {
