@@ -1,6 +1,6 @@
 .resumeSection {
    min-height: 100vh;
-   background-color: #ffffff;
+   background-color: rgb(241, 241, 241);
    padding: 0;
    margin: 0px;
    width: 100%;
@@ -53,6 +53,7 @@
 .resumeJob:hover {
    transform: translateY(-5px);
    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.07);
+   background: linear-gradient(90deg, rgb(169, 176, 185), rgb(255, 255, 255))
 }
 
 .resumeEducation h5,
