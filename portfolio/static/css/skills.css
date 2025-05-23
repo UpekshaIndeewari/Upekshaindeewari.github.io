@@ -1,6 +1,6 @@
 .skillsSection {
    min-height: 100vh;
-   background-color: rgb(245, 245, 245);
+   background-color: rgb(255, 255, 255);
    padding: 0px;
    margin: 0px;
    width: 100%;
@@ -27,6 +27,11 @@
    background: rgb(24, 119, 242);
 }
 
+/* This will hide the mode bar permanently */
+.modebar {
+   display: none !important;
+}
+
 .skillHeading {
    color: #000000;
 }
@@ -36,10 +41,7 @@
    height: 600px;
    width: 100%;
    margin: 0;
-}
-
-.modebar {
-   display: none !important;
+   padding-top: 20px;
 }
 
 .progress {
@@ -54,8 +56,6 @@
    font-size: 1.0rem;
    background-color: rgb(24, 119, 242);
 }
-
-
 
 .expert-icon {
    font-size: 3.0rem;
@@ -101,7 +101,7 @@
    justify-content: center;
    align-items: center;
    background: #b3b3b3;
-   border-radius: 8px;
+   border-radius: 34px;
 }
 
 #skills-container {
@@ -109,6 +109,21 @@
    justify-content: center;
    align-items: center;
    overflow-x: hidden;
+   padding-top: 10px;
+}
+
+.sunburst {
+   background-color: rgb(241, 241, 241);
+   padding-top: 30px;
+}
+
+.skill {
+   padding-top: 30px;
+}
+
+.expert {
+   padding-top: 30px;
+   padding-bottom: 20px;
 }
 
 @media (min-width: 1400px) {
