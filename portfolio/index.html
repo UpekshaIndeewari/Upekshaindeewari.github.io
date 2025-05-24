@@ -629,20 +629,22 @@
       </div>
     </div>
   </div>
-</section><footer class="bg-dark text-white text-center py-3">
+</section><footer class="text-white text-center py-3">
   <div class="container d-flex flex-column align-items-center">
-    <img
-      src="static/images/logo.png"
-      alt="Logo"
-      style="height: 60px"
-    />
+    <a class="footerimg" href="#home">
+      <img
+        src="{{ url_for('static', filename='images/navbar/logo.png') }}"
+        class="navbar-logo"
+      />
+    </a>
     <p class="mb-0">
-      Copyright &copy; <span id="year"></span>
+      Copyright 2025 &copy; <span id="year"></span>
       <strong><span class="text-primary">Upeksha Indeewari</span></strong>
       All rights reserved.
     </p>
   </div>
-</footer><!-- Back to Top Button -->
+</footer>
+<!-- Back to Top Button -->
 <button id="backToTopBtn" title="Go to top" aria-label="Back to top">↑</button></main>
 
     <!-- Plotly JS -->
