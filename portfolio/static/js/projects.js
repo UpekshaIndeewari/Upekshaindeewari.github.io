@@ -173,19 +173,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // DOM elements
       const projectContainer = document.querySelector(".project-container");
-      const paginationControls = document.getElementById(
-         "pagination-controls"
-      );
-      const filterBtns = document.querySelectorAll(".filter-btn");
+      const paginationControls = document.getElementById("pagination-controls");
+      const filterLinks = document.querySelectorAll(".filter-link");
 
       // Initialize
       displayProjects();
       setupPagination();
 
-      // Filter button event listeners
-      filterBtns.forEach((btn) => {
-         btn.addEventListener("click", function () {
-            filterBtns.forEach((b) => b.classList.remove("active"));
+      // Filter link event listeners
+      filterLinks.forEach((link) => {
+         link.addEventListener("click", function (e) {
+            e.preventDefault();
+            filterLinks.forEach((l) => l.classList.remove("active"));
             this.classList.add("active");
             currentFilter = this.getAttribute("data-filter");
             currentPage = 1;
@@ -212,10 +211,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
          const startIndex = (currentPage - 1) * projectsPerPage;
          const endIndex = startIndex + projectsPerPage;
-         const paginatedProjects = filteredProjects.slice(
-            startIndex,
-            endIndex
-         );
+         const paginatedProjects = filteredProjects.slice(startIndex, endIndex);
 
          paginatedProjects.forEach((project) => {
             const projectElement = document.createElement("div");
@@ -228,19 +224,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
             projectElement.innerHTML = `
                   <div class="project-card card">
-                    <a href="${project.link
-               }" class="text-decoration-none text-dark" target="_blank">
-                      <img src="${project.image}" class="card-img-top" alt="${project.title
-               }>
+                    <a href="${project.link}" class="text-decoration-none text-dark" target="_blank">
+                      <img src="${project.image}" class="card-img-top" alt="${project.title}">
                       <div class="card-body">
                         <div class="title p-2"><h5 class="card-title">${project.title}</h5></div>
                         <div class="text p-2"><p class="card-text">${project.description}</p></div>
                         <div class="project-tools p-2">
                           ${project.tools
-                  .map(
-                     (tool) =>
-                        `<span class="tool-badge">${tool}</span>`
-                  )
+                  .map((tool) => `<span class="tool-badge">${tool}</span>`)
                   .join("")}
                         </div>
                       </div>
@@ -266,17 +257,13 @@ document.addEventListener("DOMContentLoaded", function () {
                   }
                });
 
-         const pageCount = Math.ceil(
-            filteredProjects.length / projectsPerPage
-         );
+         const pageCount = Math.ceil(filteredProjects.length / projectsPerPage);
 
          // Previous button
          if (pageCount > 1) {
             const prevLi = document.createElement("li");
-            prevLi.className = `page-item ${currentPage === 1 ? "disabled" : ""
-               }`;
-            prevLi.innerHTML = `<a class="page-link" href="#" aria-label="Previous" data-page="${currentPage - 1
-               }">
+            prevLi.className = `page-item ${currentPage === 1 ? "disabled" : ""}`;
+            prevLi.innerHTML = `<a class="page-link" href="#" aria-label="Previous" data-page="${currentPage - 1}">
                   <span aria-hidden="true">&laquo;</span>
                 </a>`;
             paginationControls.appendChild(prevLi);
@@ -293,10 +280,8 @@ document.addEventListener("DOMContentLoaded", function () {
          // Next button
          if (pageCount > 1) {
             const nextLi = document.createElement("li");
-            nextLi.className = `page-item ${currentPage === pageCount ? "disabled" : ""
-               }`;
-            nextLi.innerHTML = `<a class="page-link" href="#" aria-label="Next" data-page="${currentPage + 1
-               }">
+            nextLi.className = `page-item ${currentPage === pageCount ? "disabled" : ""}`;
+            nextLi.innerHTML = `<a class="page-link" href="#" aria-label="Next" data-page="${currentPage + 1}">
                   <span aria-hidden="true">&raquo;</span>
                 </a>`;
             paginationControls.appendChild(nextLi);
