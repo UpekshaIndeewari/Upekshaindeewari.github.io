@@ -28,19 +28,7 @@
    background: rgb(24, 119, 242);
 }
 
-/*#contact .card {
-   border: none;
-   border-radius: 10px;
-   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-   height: 100%;
-   transition: all 0.3s ease;
-   background-color: #93b0ff;
-}
 
-/*#contact .card:hover {
-   transform: translateY(-5px);
-   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-}*/
 #contact h3 {
    color: #000000;
 }
@@ -121,6 +109,22 @@
 #formSuccess {
    font-size: 1.1rem;
    font-weight: 500;
+}
+
+.info {
+   background-color: #e3e6e7;
+   border-radius: 10px;
+}
+
+.card-shadow {
+   background-color: #e3e6e7;
+   border-radius: 10px;
+   margin-bottom: 20px;
+   padding: 10px;
+}
+
+.contactinfo {
+   margin-bottom: 10px;
 }
 
 @media (min-width: 1400px) {
