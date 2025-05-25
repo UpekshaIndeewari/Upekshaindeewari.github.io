@@ -93,17 +93,21 @@
 }
 
 .btn-primary {
-   background-color: #3498db;
-   border: none;
+    border: none;
    padding: 12px 30px;
    font-weight: 500;
    letter-spacing: 0.5px;
    transition: all 0.3s;
+   font-size: 1.1rem;
+   background: linear-gradient(to right, #1877F2,rgb(7, 51, 122)); 
+  color: rgb(255, 255, 255);
+  border-radius: 22px; 
+  border: none; 
+  cursor: pointer;
 }
 
 .btn-primary:hover {
-   background-color: #2179b4;
-   transform: translateY(-2px);
+  background:rgb(7, 51, 122); 
 }
 
 #formSuccess {
