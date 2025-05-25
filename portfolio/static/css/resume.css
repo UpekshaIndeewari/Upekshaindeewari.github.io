@@ -27,7 +27,7 @@
 }
 
 .resumeEducation {
-   background: #c5cacf;
+   background: linear-gradient(180deg, rgb(169, 176, 185), rgb(255, 255, 255));
    padding: 25px;
    border-radius: 12px;
    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.01);
@@ -38,7 +38,7 @@
 }
 
 .resumeJob {
-   background: #c5cacf;
+   background: linear-gradient(180deg, rgb(169, 176, 185), rgb(255, 255, 255));
    padding: 25px;
    border-radius: 12px;
    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.01);
@@ -52,7 +52,7 @@
 .resumeJob:hover {
    transform: translateY(-5px);
    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.07);
-   background: linear-gradient(180deg, rgb(169, 176, 185), rgb(255, 255, 255));
+   background: #c5cacf;
 }
 
 .resumeEducation h5,
