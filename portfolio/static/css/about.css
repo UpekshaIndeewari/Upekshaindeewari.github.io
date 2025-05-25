@@ -87,13 +87,21 @@
 }
 
 .cv-button {
-   font-size: 1rem;
    margin: 20px;
    margin-left: 0px;
-   color: rgb(255, 255, 255);
-   background-color: rgb(24, 119, 242);
+   font-size: 1.1rem;
+   background: linear-gradient(to right, #1877F2,rgb(7, 51, 122)); 
+  color: rgb(255, 255, 255);
+  border-radius: 22px; 
+  transition: all 0.3s ease; 
+  border: none; 
+  padding: 10px 20px; 
+  cursor: pointer;
 }
 
+.cv-button:hover {
+  background:rgb(7, 51, 122); 
+}
 
 @media (min-width: 1400px) {
    .aboutSection {
