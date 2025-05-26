@@ -48,7 +48,7 @@
 
 .buttonabout {
   font-size: 1.1rem;
-  background: linear-gradient(to right, #1877F2,rgb(7, 51, 122)); 
+  background: linear-gradient(to right,rgb(7, 51, 122), #1877F2); 
   color: rgb(255, 255, 255);
   border-radius: 22px; 
   transition: all 0.3s ease; 
