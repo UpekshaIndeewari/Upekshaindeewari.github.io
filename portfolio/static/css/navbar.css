@@ -9,12 +9,19 @@ nav {
 }
 
 #mainNavbar.scrolled {
-   background-color: #000 !important;
+   background-color: rgba(2, 1, 31, 0.8) !important;
+  .nav-link {
+color: rgb(255, 255, 255) !important;
+   }
+   .nav-link.active {
+   color: rgb(24, 119, 242) !important;
+   font-weight: bold;
+}
 }
 
 /* Navbar when expanded (mobile menu open) */
 #mainNavbar.navbar-expanded {
-   background-color: #000 !important;
+   background-color: rgba(2, 1, 31, 0.8) !important;
 }
 
 .navbar-collapse {
@@ -29,7 +36,8 @@ nav {
 
 .nav-link {
    font-size: 1.1rem;
-   color: rgb(255, 255, 255) !important;
+   color: rgb(0, 0, 0) !important;
+   font-weight: bold;
 }
 
 .navbar-brand {
@@ -54,13 +62,3 @@ nav {
    box-shadow: none !important;
 }
 
-
-@media (max-width: 992px) {
-
-   /* Bootstrap's lg breakpoint */
-   .navbar-collapse {
-      background-color: #000 !important;
-      /* Always black on mobile */
-   }
-
-}
