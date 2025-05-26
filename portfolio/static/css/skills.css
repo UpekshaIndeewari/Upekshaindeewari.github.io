@@ -42,6 +42,7 @@
    width: 100%;
    margin: 0;
    padding-top: 20px;
+   margin-bottom: 30px;
 }
 
 .progress {
@@ -70,7 +71,7 @@
 }
 
 .expert-icon {
-   font-size: 3rem;
+   font-size: 2rem;
    color: rgb(0, 0, 0);
    margin-bottom: 5px;
 
@@ -92,15 +93,16 @@
 
 .expert-logo-box:hover {
    background-color: rgb(24, 119, 242);
+   transform: translateY(-5px);
 }
 
 .expert-logo-box {
-   width: 70px;
-   height: 70px;
+   width: 60px;
+   height: 60px;
    display: flex;
    justify-content: center;
    align-items: center;
-   background: #b3b3b3;
+   background: linear-gradient(180deg, rgb(179, 212, 255), rgb(4, 41, 250));
    border-radius: 34px;
 }
 
@@ -110,6 +112,7 @@
    align-items: center;
    overflow-x: hidden;
    padding-top: 10px;
+   margin-bottom: 15px;
 }
 
 .sunburst {
