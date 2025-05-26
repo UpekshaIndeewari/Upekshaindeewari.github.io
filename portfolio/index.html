@@ -108,21 +108,23 @@
 
     <main> <section id="home" class="homeSection">
   <div class="container-fluid Container">
-    <img
-    src="static/images/home/background.jpg"
-    alt="Background"
-    class="background-image"
-  />
-    <div class="row-lg-6 m-0">
-      <div class="col-lg-6 p-0">
+    <div class="row">
+      <div class="col-lg-6 text-col">
         <h6>Hello, I am...</h6>
         <h1 class="typing-text">
           <span id="typed-text"></span><span class="cursor">|</span>
         </h1>
-
         <p>GIS Analyst | Spatial Data Analyst | GIS Engineer</p>
-
         <a href="#about" class="btn buttonabout">More About Me</a>
+      </div>
+      <div class="col-lg-6">
+        <!-- Image for larger screens (>= 992px) -->
+        <img src="static/images/home/HD.jpg" alt="Background" class="background-image lg-screen" />
+        <!-- Image for smaller screens (< 992px) -->
+        <img src="static/images/home/Mobile.jpg" alt="Background" class="background-image sm-screen" />
+        <img src="static/images/home/Tab.jpg" alt="Background" class="background-image md-screen" />
+        <img src="static/images/home/iphone.jpg" alt="Background" class="background-image xs-screen" />
+        <img src="static/images/home/Tall.jpg" alt="Background" class="background-image tl-screen" />
       </div>
     </div>
   </div>
