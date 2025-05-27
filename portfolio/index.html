@@ -129,7 +129,7 @@
     </div>
   </div>
 </section> <section id="about" class="aboutSection">
-  <div class="container-fluid">
+  <div class="container">
     <div class="row-lg-6 box">
       <div>
         <h1 class="text-center aboutHeading">About Me</h1>
@@ -139,7 +139,7 @@
       <div class="row">
         <div class="col-12 col-lg-4 text-center">
           <img
-            src="static/images/about/2_final.jpg"
+            src="{{ url_for('static', filename='images/about/2_final.jpg') }}"
             alt="Profile"
             class="profileImg"
           />
@@ -217,7 +217,8 @@
       </div>
     </div>
   </div>
-</section> <section id="resume" class="resumeSection">
+</section>
+ <section id="resume" class="resumeSection">
   <div class="container">
     <div class="row-lg-6 m-0">
     <div>
