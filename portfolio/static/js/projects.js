@@ -215,7 +215,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
          paginatedProjects.forEach((project) => {
             const projectElement = document.createElement("div");
-            projectElement.className = `col-lg-4 col-md-4 mb-4 project-item`;
+            projectElement.className = `col-lg-4 col-md-6 mb-4 project-item`;
 
             // Get categories as space-separated string for CSS classes
             const categoryClasses = Array.isArray(project.category)
