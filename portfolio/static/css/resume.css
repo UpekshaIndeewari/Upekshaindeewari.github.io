@@ -52,7 +52,7 @@
 .resumeJob:hover {
    transform: translateY(-5px);
    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.07);
-   background: rgb(136, 188, 255)
+   background: rgb(136, 188, 255);
 }
 
 .resumeEducation h5,
