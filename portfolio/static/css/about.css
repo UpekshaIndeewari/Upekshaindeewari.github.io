@@ -7,9 +7,8 @@
 }
 
 .profileImg {
-   width: 27vw;
-   height: auto;
-   object-fit: cover;
+   width: auto;
+   height: 20vh;
    margin-bottom: 0px;
 }
 
@@ -90,17 +89,17 @@
    margin: 20px;
    margin-left: 0px;
    font-size: 1.1rem;
-   background: linear-gradient(to right, rgb(7, 51, 122), #1877F2); 
-  color: rgb(255, 255, 255);
-  border-radius: 22px; 
-  transition: all 0.3s ease; 
-  border: none; 
-  padding: 10px 20px; 
-  cursor: pointer;
+   background: linear-gradient(to right, rgb(7, 51, 122), #1877F2);
+   color: rgb(255, 255, 255);
+   border-radius: 22px;
+   transition: all 0.3s ease;
+   border: none;
+   padding: 10px 20px;
+   cursor: pointer;
 }
 
 .cv-button:hover {
-  background:rgb(7, 51, 122); 
+   background: rgb(7, 51, 122);
 }
 
 .box {
@@ -117,7 +116,7 @@
    }
 
    .profileImg {
-      width: 30vw;
+      width: 100%;
       height: auto;
       margin-bottom: 10px;
    }
@@ -133,7 +132,7 @@
    }
 
    .profileImg {
-      width: 35vw;
+      width: 100%;
       height: auto;
       margin-bottom: 10px;
    }
@@ -150,7 +149,7 @@
    }
 
    .profileImg {
-      width: 40vw;
+      width: 100%;
       height: auto;
       margin-bottom: 10px;
    }
@@ -166,7 +165,7 @@
    }
 
    .profileImg {
-      width: 50vw;
+      width: 100%;
       height: auto;
       margin-bottom: 10px;
    }
@@ -174,7 +173,7 @@
 
 @media (max-width: 576px) {
    .profileImg {
-      width: 60vw;
+      width: 100%;
       height: auto;
       margin-bottom: 10px;
    }
