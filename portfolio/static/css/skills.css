@@ -102,7 +102,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   background: linear-gradient(180deg, rgb(179, 212, 255), rgb(4, 41, 250));
+   background:linear-gradient(180deg, rgb(136, 188, 255), rgb(255, 255, 255));
    border-radius: 34px;
 }
 
