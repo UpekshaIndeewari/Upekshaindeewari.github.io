@@ -122,6 +122,22 @@
    }
 }
 
+@media (max-width: 1400px) {
+   .aboutSection {
+      min-height: 30vh;
+   }
+
+   .social-icons {
+      margin-bottom: 15px;
+   }
+
+   .profileImg {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+   }
+}
+
 @media (max-width: 1200px) {
    .aboutSection {
       min-height: 30vh;
