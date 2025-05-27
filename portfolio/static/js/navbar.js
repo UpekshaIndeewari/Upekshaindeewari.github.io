@@ -95,4 +95,75 @@ document.addEventListener('DOMContentLoaded', function () {
    if (window.scrollY > 10) {
       navbar.classList.add('scrolled');
    }
+
+   // Sections to observe (add all your sections here)
+   const sections = [
+      { id: 'home', name: 'home' },
+      { id: 'about', name: 'about' },
+      { id: 'resume', name: 'resume' },
+      { id: 'skills', name: 'skills' },
+      { id: 'certificates', name: 'certificates' },
+      { id: 'projects', name: 'projects' },
+      { id: 'contact', name: 'contact' }
+   ];
+
+   // Create Intersection Observer
+   const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+         if (entry.isIntersecting) {
+            const sectionId = entry.target.id;
+            // Only update URL if the section is in our list
+            if (sections.some(section => section.id === sectionId)) {
+               updateUrlHash(sectionId);
+            }
+         }
+      });
+   }, {
+      threshold: 0.5,
+      rootMargin: '0px 0px -50% 0px' // Adjust this to trigger at the right scroll position
+   });
+
+   // Observe all sections
+   sections.forEach(section => {
+      const element = document.getElementById(section.id);
+      if (element) {
+         observer.observe(element);
+      }
+   });
+
+   // Handle initial hash
+   if (window.location.hash) {
+      const hash = window.location.hash.substring(1);
+      const targetSection = document.getElementById(hash);
+      if (targetSection) {
+         setTimeout(() => {
+            targetSection.scrollIntoView();
+         }, 100);
+      }
+   }
+
+   // Function to update URL hash
+   function updateUrlHash(hash) {
+      if (history.pushState) {
+         const newUrl = window.location.pathname + '#' + hash;
+         window.history.pushState(null, null, newUrl);
+      } else {
+         window.location.hash = '#' + hash;
+      }
+   }
+
+   // Optional: Add click handler for nav links to prevent double hash
+   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+         e.preventDefault();
+         const targetId = this.getAttribute('href');
+         const targetElement = document.querySelector(targetId);
+         if (targetElement) {
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+            updateUrlHash(targetId.substring(1));
+         }
+      });
+   });
+
+
 });
