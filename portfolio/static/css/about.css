@@ -103,6 +103,10 @@
   background:rgb(7, 51, 122); 
 }
 
+.box {
+   padding: 20px;
+}
+
 @media (min-width: 1400px) {
    .aboutSection {
       min-height: 30vh;
