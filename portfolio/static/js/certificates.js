@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
          title: "UAS Remote Pilot A1/A3 Competency Certification",
          description:
             "This certification validates competency in operating drones under EU regulations for the Open Category (A1/A3), issued by EASA - European Union Aviation Safety Agency",
-         logo: "static/images/certificates/l1.png",
+         logo: "static/images/certificates/l1 - Copy.png",
          link: "https://learningzone.eurocontrol.int/ilp/customs/Reports/DACUASComp/Certificate/Validation/14917010/?key=8eef8686aec17def221b0104ab24718cd07f7cf8fd279f85eaf88b97f4265675",
       },
       {
