@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
                "Use of Sentinel-2 imagery for land use classification with the use of google earth engine, remote sensing techniques and machine learning algorithms",
             image: "static/images/projects/p1.png",
             link: "https://github.com/UpekshaIndeewari/Application-of-Google-Earth-Engine-for-Landuse-Classification",
-            category: ["remote-sensing", "spatial-data-science"],
+            category: ["geospatial-technology", "data-science"],
             tools: ["Google Earth Engine", "JavaScript", "Machine Learning"],
          },
          {
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
                "Application of machine learning algorithms in identifying and mapping different land cover types using satellite imagery and compares the performance of algorithms",
             image: "static/images/projects/p2.jpg",
             link: "https://github.com/UpekshaIndeewari/Machine-Learning-Approaches-for-Land-Use-Land-Cover-Classification",
-            category: ["spatial-data-science", "data-science"],
+            category: ["geospatial-technology", "data-science"],
             tools: ["Python", "Machine Learning"],
          },
          {
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
                "Developed NLP based tools for annotation of resources with body of knowladge in earth observation and geo informatics",
             image: "static/images/projects/p.png",
             link: "https://storymaps.arcgis.com/stories/f83af649b1234a129d70c8a41275c583",
-            category: ["data-science"],
+            category: ["geospatial-technology", "data-science"],
             tools: ["Python", "NLP", "Machine Learning"],
          },
          {
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
                "Identification of land use and land cover changes using remote sensing and GIS techniques.",
             image: "static/images/projects/p4.png",
             link: "https://storymaps.arcgis.com/stories/3887209c12694a0fb7653337042998f3",
-            category: ["remote-sensing", "gis", "spatial-data-science"],
+            category: ["geospatial-technology"],
             tools: ["ArcGIS Pro", "Erdas Imagine"],
          },
          {
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
                "Development an R package designed for visualizing weather data, sourced from the OpenWeatherMap API",
             image: "static/images/projects/p5.jpg",
             link: "https://github.com/UpekshaIndeewari/R-Package-Development-for-Comprehensive-Weather-Data-Analysis-Using-OpenWeatherMap-API",
-            category: ["data-science", "spatial-data-science"],
+            category: ["geospatial-technology", "data-science"],
             tools: ["R", "OpenWeatherMap API", "API", "ggplot2", "leaflet"],
          },
          {
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
                "Analyze the trend and spatial distribution of annual air temperature patterns in Hambantota District, Sri Lanka over the last 40 years using GIS techniques",
             image: "static/images/projects/p6.jpg",
             link: "https://storymaps.arcgis.com/stories/13c72d91a21849c4861fd5d9523ea9b4",
-            category: ["gis", "data-science", "spatial-data-science"],
+            category: ["geospatial-technology"],
             tools: ["ArcGIS Pro", "Data Science"],
          },
          {
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
                "Multi-temporal analysis of land use changes using satellite imagery",
             image: "static/images/projects/p7.jpg",
             link: "https://uji.maps.arcgis.com/apps/dashboards/98aa536123f24f49b1e8a53ee3135382",
-            category: ["remote-sensing", "gis", "spatial-data-science"], // Now an array
+            category: ["geospatial-technology"], // Now an array
             tools: [
                "ArcGIS Pro",
                "ArcGIS Online",
@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
                "An end-to-end ETL pipeline and data visualizations for analyzing natural gas trends in the EEA from 1991 to 2020",
             image: "static/images/projects/p8.jpg",
             link: "https://github.com/UpekshaIndeewari/Data-Driven-Insights-on-Natural-Gas-in-the-EEA-area-1991-2020-Using-ETL-Data-Visualization",
-            category: ["data-science", "spatial-data-science"], // Now an array
+            category: ["data-science"], // Now an array
             tools: [
                "Python",
                "Pandas",
@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", function () {
                "A project based on the data base management system to assess the surrounding location with respect to the blasting locations of proposed highway construction project using PostGIS, PostgreSQL and ArcGIS Pro",
             image: "static/images/projects/p10.png",
             link: "https://storymaps.arcgis.com/stories/296d3dc378fb4131b3830041748e2a87",
-            category: ["data-science", "spatial-data-science"], // Now an array
+            category: ["geospatial-technology", "data-science"], // Now an array
             tools: ["PostGIS", "PostgreSQL", "SQL", "ArcGIS Pro"],
          },
          {
@@ -133,7 +133,7 @@ document.addEventListener("DOMContentLoaded", function () {
                "Creating an interactive visualization of internet speed variations across different regions in the european union using Tableau.",
             image: "static/images/projects/p11.png",
             link: "https://storymaps.arcgis.com/stories/0ccc6c1c90e544ff9d57179d9aa2a4f6",
-            category: ["data-science", "spatial-data-science"],
+            category: ["data-science"],
             tools: ["Tableau"],
          },
          {
@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function () {
                "A Web based application for finding camping sites, travel agencies, accommodations and activities for explore to Castellon",
             image: "static/images/projects/p12.jpg",
             link: "https://storymaps.arcgis.com/stories/822fd16133324ef1b0d11f877f8fcd8e",
-            category: ["spatial-data-science"],
+            category: ["geospatial-technology"],
             tools: [
                "Arc GIS Online",
                "Web feature layer",
@@ -161,7 +161,7 @@ document.addEventListener("DOMContentLoaded", function () {
                "Arc GIS Hub for explore, analysis, visualization of Covid data globally",
             image: "static/images/projects/p13.jpg",
             link: "https://covid-19-world-distribution-uji.hub.arcgis.com/",
-            category: ["spatial-data-science"],
+            category: ["geospatial-technology"],
             tools: ["Arc GIS Online", "Arc GIS Pro", "ArcGIS Hub"],
          },
       ];
