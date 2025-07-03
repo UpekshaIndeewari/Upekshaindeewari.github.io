@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
                "Use of Sentinel-2 imagery for land use classification with the use of google earth engine, remote sensing techniques and machine learning algorithms",
             image: "static/images/projects/p1.png",
             link: "https://github.com/UpekshaIndeewari/Application-of-Google-Earth-Engine-for-Landuse-Classification",
-            category: ["geospatial-technology", "data-science"],
+            category: ["geospatial-technology"],
             tools: ["Google Earth Engine", "JavaScript", "Machine Learning"],
          },
          {
