@@ -5,6 +5,17 @@ document.addEventListener("DOMContentLoaded", function () {
          {
             id: 1,
             title:
+               "Portfolio Web Site Development",
+            description:
+               "Development of responsive portfolio web site using Python and Flask",
+            image: "static/images/projects/porfolio.PNG",
+            link: "https://upekshaindeewari.github.io/portfolio/#home",
+            category: ["web-development"],
+            tools: ["Flask", "Python"],
+         },
+         {
+            id: 1,
+            title:
                "Application of Google Earth Engine (GEE) for Landuse Classification and Monitoring Change Detection",
             description:
                "Use of Sentinel-2 imagery for land use classification with the use of google earth engine, remote sensing techniques and machine learning algorithms",
