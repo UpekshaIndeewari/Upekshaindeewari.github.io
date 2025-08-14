@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
                "Portfolio Web Site Development",
             description:
                "Development of responsive portfolio web site using Python and Flask",
-            image: "static/images/projects/porfolio1.png",
+            image: "static/images/projects/porfolio1.PNG",
             link: "https://upekshaindeewari.github.io/portfolio/#home",
             category: ["web-development"],
             tools: ["Flask", "Python", "HTML", "CSS", "Boostrap"],
