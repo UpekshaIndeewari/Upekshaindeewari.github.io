@@ -2,8 +2,18 @@ document.addEventListener("DOMContentLoaded", function () {
    // Sample project data with tools
    try {
       const allProjects = [
-      
-      {
+         {
+            id: 1,
+            title:
+               "Automated End-to-End ETL Workflow for European Air Traffic Data Lake Creation Using FME",
+            description:
+               "Automated ETL pipeline using FME Desktop for collecting, processing, and maintaining a Europe-wide air traffic data lake.",
+            image: "static/images/projects/FME.PNG",
+            link: "https://github.com/UpekshaIndeewari/Automated-End-to-End-ETL-Workflow-for-European-Air-Traffic-Data-Lake-Creation-Using-FME",
+            category: ["geospatial-technology", "data-science"],
+            tools: ["FME", "Rest API", "Automation", "ETL"],
+         },
+         {
             id: 2,
             title:
                "Portfolio Web Site Development",
@@ -22,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
                "Use of Sentinel-2 imagery for land use classification with the use of google earth engine, remote sensing techniques and machine learning algorithms",
             image: "static/images/projects/p1.png",
             link: "https://github.com/UpekshaIndeewari/Application-of-Google-Earth-Engine-for-Landuse-Classification",
-            category: ["geospatial-technology"],
+            category: ["geospatial-technology", "data-science"],
             tools: ["Google Earth Engine", "JavaScript", "Machine Learning"],
          },
          {
