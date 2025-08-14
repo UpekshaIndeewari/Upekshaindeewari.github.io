@@ -2,24 +2,14 @@ document.addEventListener("DOMContentLoaded", function () {
    // Sample project data with tools
    try {
       const allProjects = [
-         {
-            id: 1,
-            title:
-               "Automated End-to-End ETL Workflow for European Air Traffic Data Lake Creation Using FME",
-            description:
-               "Automated ETL pipeline using FME Desktop for collecting, processing, and maintaining a Europe-wide air traffic data lake.",
-            image: "static/images/projects/FME.PNG",
-            link: "https://github.com/UpekshaIndeewari/Automated-End-to-End-ETL-Workflow-for-European-Air-Traffic-Data-Lake-Creation-Using-FME",
-            category: ["geospatial-technology", "data-science"],
-            tools: ["FME", "Rest API", "Automation", "ETL"],
-         },
-         {
+      
+      {
             id: 2,
             title:
                "Portfolio Web Site Development",
             description:
                "Development of responsive portfolio web site using Python and Flask",
-            image: "static/images/projects/porfolio1.PNG",
+            image: "static/images/projects/porfolio.PNG",
             link: "https://upekshaindeewari.github.io/portfolio/#home",
             category: ["web-development"],
             tools: ["Flask", "Python", "HTML", "CSS", "Boostrap"],
