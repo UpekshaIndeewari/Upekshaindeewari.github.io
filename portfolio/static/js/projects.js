@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
             description:
                "Apply deep learning for automated object classification within ArcGIS Pro.",
             image: "static/images/projects/objectdetect.png",
-            link: "https://github.com/UpekshaIndeewari/Upekshaindeewari.github.io/blob/main/portfolio/static/images/projects/objectdetect.png",
+            link: "https://storymaps.arcgis.com/stories/22e03a5f05a24686b5bb09b677628f02",
             category: ["geospatial-technology", "data-science"],
             tools: ["Deep Learning", "Object Detection", "ArcGIS Pro"],
          },
