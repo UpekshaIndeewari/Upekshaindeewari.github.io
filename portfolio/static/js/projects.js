@@ -5,6 +5,17 @@ document.addEventListener("DOMContentLoaded", function () {
          {
             id: 1,
             title:
+               "Classifying Building Damage Using Deep Learning",
+            description:
+               "Apply deep learning for automated object classification within ArcGIS Pro.",
+            image: "static/images/projects/objectdetect.png",
+            link: "https://github.com/UpekshaIndeewari/Upekshaindeewari.github.io/blob/main/portfolio/static/images/projects/objectdetect.png",
+            category: ["geospatial-technology", "data-science"],
+            tools: ["Deep Learning", "Object Detection", "ArcGIS Pro"],
+         },
+         {
+            id: 2,
+            title:
                "Automated End-to-End ETL Workflow for European Air Traffic Data Lake Creation Using FME",
             description:
                "Automated ETL pipeline using FME Desktop for collecting, processing, and maintaining a Europe-wide air traffic data lake.",
@@ -14,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
             tools: ["FME", "Rest API", "Automation", "ETL"],
          },
          {
-            id: 2,
+            id: 3,
             title:
                "Portfolio Web Site Development",
             description:
@@ -25,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
             tools: ["Flask", "Python", "HTML", "CSS", "Boostrap"],
          },
          {
-            id: 3,
+            id: 4,
             title:
                "Application of Google Earth Engine (GEE) for Landuse Classification and Monitoring Change Detection",
             description:
@@ -36,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
             tools: ["Google Earth Engine", "JavaScript", "Machine Learning"],
          },
          {
-            id: 4,
+            id: 5,
             title:
                "Machine Learning Approaches for Land Use Land Cover Classification",
             description:
@@ -47,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
             tools: ["Python", "Machine Learning"],
          },
          {
-            id: 5,
+            id: 6,
             title: "Master Thesis-EO4GEO BOK Annotation for GI Resources ",
             description:
                "Developed NLP based tools for annotation of resources with body of knowladge in earth observation and geo informatics",
@@ -57,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
             tools: ["Python", "NLP", "Machine Learning"],
          },
          {
-            id: 6,
+            id: 7,
             title:
                "Remote Sensing and GIS Techniques for Monitoring Urban Growth and Land Use Conflicts in Cologne, Germany",
             description:
@@ -68,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
             tools: ["ArcGIS Pro", "Erdas Imagine"],
          },
          {
-            id: 7,
+            id: 8,
             title:
                "R Package Development for Weather Data Analysis Using OpenWeatherMap API",
             description:
@@ -79,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
             tools: ["R", "OpenWeatherMap API", "API", "ggplot2", "leaflet"],
          },
          {
-            id: 8,
+            id: 9,
             title:
                "Spatial and Temporal Variations of Climate on Drought Hazard in Sri Lanka",
             description:
@@ -90,7 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
             tools: ["ArcGIS Pro", "Data Science"],
          },
          {
-            id: 9,
+            id: 10,
             title:
                "Analysis of Land Use Dynamics in Hambantota, Sri Lanka Using GIS and Remote Sensing Approach",
             description:
@@ -106,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
             ],
          },
          {
-            id: 10,
+            id: 11,
             title:
                "Data Driven Insights on Natural Gas in the EEA area Using ETL Data Visualization",
             description:
@@ -126,7 +137,7 @@ document.addEventListener("DOMContentLoaded", function () {
             ],
          },
          {
-            id: 11,
+            id: 12,
             title:
                "Comparison of Machine Learning Algorithms for Water Quality Prediction",
             description:
@@ -137,7 +148,7 @@ document.addEventListener("DOMContentLoaded", function () {
             tools: ["Python", "Orange", "Exploratory Data Analysis"],
          },
          {
-            id: 12,
+            id: 13,
             title:
                "Assessment of Surrounding Locations with respect to the Blasting locations of Proposed Highway Construction Project Using PostGIS",
             description:
@@ -148,7 +159,7 @@ document.addEventListener("DOMContentLoaded", function () {
             tools: ["PostGIS", "PostgreSQL", "SQL", "ArcGIS Pro"],
          },
          {
-            id: 13,
+            id: 14,
             title:
                "Interactive Visualization Using Tableau For Internet Speed Across EU Regions",
             description:
@@ -159,7 +170,7 @@ document.addEventListener("DOMContentLoaded", function () {
             tools: ["Tableau"],
          },
          {
-            id: 14,
+            id: 15,
             title:
                "Developing a GIS-Enhanced Web Application for Promoting Tourism in Castellón, Spain",
             description:
@@ -177,7 +188,7 @@ document.addEventListener("DOMContentLoaded", function () {
          },
 
          {
-            id: 15,
+            id: 16,
             title: "Arc GIS Hub Site for Covid-19 World Distribution",
             description:
                "Arc GIS Hub for explore, analysis, visualization of Covid data globally",
