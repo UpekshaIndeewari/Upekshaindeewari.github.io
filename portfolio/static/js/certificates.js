@@ -1,15 +1,23 @@
 document.addEventListener("DOMContentLoaded", function () {
    const certificates = [
-      {
+         {
          id: 1,
-         title: "UAS Remote Pilot A1/A3 Competency Certification",
+         title: "The ArcGIS Imagery MOOC: Foundations and Frontiers",
          description:
-            "This certification validates competency in operating drones under EU regulations for the Open Category (A1/A3), issued by EASA - European Union Aviation Safety Agency",
-         logo: "static/images/certificates/l1_Copy.png",
-         link: "https://learningzone.eurocontrol.int/ilp/customs/Reports/DACUASComp/Certificate/Validation/14917010/?key=8eef8686aec17def221b0104ab24718cd07f7cf8fd279f85eaf88b97f4265675",
+            "This MOOC teach modern workflows that integrate imagery (from satellites, drones, aerial sources) with GIS and GeoAI tools to generate insights and support decision‑making",
+         logo: "static/images/certificates/l3.png",
+         link: "https://drive.google.com/file/d/1NK2-L6Ayx_TJVW-lP8ruZSuF1LjiGNZJ/view?usp=drive_link",
       },
       {
          id: 2,
+         title: "UAS Remote Pilot A1/A3 Competency Certification",
+         description:
+            "This certification validates competency in operating drones under EU regulations for the Open Category (A1/A3), issued by EASA - European Union Aviation Safety Agency",
+         logo: "static/images/certificates/l1.png",
+         link: "https://learningzone.eurocontrol.int/ilp/customs/Reports/DACUASComp/Certificate/Validation/14917010/?key=8eef8686aec17def221b0104ab24718cd07f7cf8fd279f85eaf88b97f4265675",
+      },
+      {
+         id: 3,
          title: "IBM Data Science Professional Certificate",
          description:
             "This certificate validates expertise in Python, SQL, machine learning, and data visualization, issued by IBM",
@@ -17,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
          link: "https://www.coursera.org/account/accomplishments/specialization/BHYL9G81UTUA",
       },
       {
-         id: 3,
+         id: 4,
          title: "Machine Learning with Python",
          description:
             "This certificate validates in practical skills in Python-based machine learning using scikit-learn, issued by IBM",
@@ -25,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
          link: "https://www.coursera.org/account/accomplishments/verify/CGSHRY65YLTP",
       },
       {
-         id: 4,
+         id: 5,
          title: "Databases and SQL for Data Science with Python",
          description:
             "This certificate validates expertise in SQL database management and Python integration for analytics, issued by IBM",
@@ -33,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
          link: "https://www.coursera.org/account/accomplishments/verify/3CNXTGESF2NC",
       },
       {
-         id: 5,
+         id: 6,
          title: "Python for Data Science, AI & Development",
          description:
             "This certification validates expertise in Python programming specifically tailored for data science, artificial intelligence, and software development, issued by IBM",
@@ -42,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
       },
 
       {
-         id: 6,
+         id: 7,
          title: "Python Programming",
          description:
             "This course provides a strong foundation in Python, emphasizing both theoretical concepts and practical applications in computing, issud by University of Moratuwa, (verification code:RRWpdSh0uc)",
@@ -50,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
          link: "https://open.uom.lk/lms/mod/customcert/verify_certificate.php",
       },
       {
-         id: 7,
+         id: 8,
          title: "Web Design for Beginners",
          description:
             "This course provides a strong foundation in Python, emphasizing both theoretical concepts and practical applications in computing, issud by University of Moratuwa, (verification code:ID kddk5v2u2p)",
@@ -58,23 +66,23 @@ document.addEventListener("DOMContentLoaded", function () {
          link: "https://open.uom.lk/lms/mod/customcert/verify_certificate.php",
       },
       {
-         id: 8,
+         id: 9,
          title: "Spatial Data Science: The New Frontier in Analytics",
          description:
             "This certification validates expertise in geospatial AI, spatial statistics, and big data visualization with ArcGIS, issued by Esri",
-         logo: "static/images/certificates/l3.jpg",
+         logo: "static/images/certificates/l3.png",
          link: "https://www.esri.com/training/TrainingRecord/Certificate/uvidanelage_uji/64b911227640e8345a4875b5/-120",
       },
       {
-         id: 9,
+         id: 10,
          title: "Python Scripting for Geoprocessing Workflows",
          description:
             "This certification validates expertise in automate geoprocessing tasks with ArcPy and create custom GIS tools, issued by ESRI",
-         logo: "static/images/certificates/l3.jpg",
+         logo: "static/images/certificates/l3.png",
          link: "https://www.esri.com/training/TrainingRecord/Certificate/uvidanelage_uji/63f683c8c8cc9a0fdf8a19d3/-60",
       },
       {
-         id: 10,
+         id: 11,
          title: "UAVs in Precision Agriculture",
          description:
             "This certification validates expertise in UAV (drone) technology in precision agriculture, leveraging advanced sensors and AI for sustainable crop monitoring, yield optimization, and resource-efficient farming practices, issued by University of Twente",
@@ -82,11 +90,11 @@ document.addEventListener("DOMContentLoaded", function () {
          link: "https://www.linkedin.com/in/upeksha-indeewari/details/certifications/1745997938948/single-media-viewer?type=DOCUMENT&profileId=ACoAACufWgoBvrZcrKXCmr9zwdnUDW5JFXOW6x8&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BYHbgHwP%2BS7C9pRHoZc3rQQ%3D%3D",
       },
       {
-         id: 11,
+         id: 12,
          title: "OpenStreetMap and Humanitarian Mapping",
          description:
             "Humanitarian mapping with OSM for disaster response and development issued by UN Mappers",
-         logo: "static/images/certificates/l4.jpg",
+         logo: "static/images/certificates/l4.png",
          link: "https://www.linkedin.com/in/upeksha-indeewari/details/certifications/1729190210289/single-media-viewer/?profileId=ACoAACufWgoBvrZcrKXCmr9zwdnUDW5JFXOW6x8",
       },
    ];
