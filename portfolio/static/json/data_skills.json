@@ -302,17 +302,17 @@
     },
     {
       "ids": "Machine Learning and AI-ML",
-      "labels": "Machine Learning (ML)",
+      "labels": "ML",
       "parents": "Hard Skills-Machine Learning and AI"
     },
     {
       "ids": "Machine Learning and AI-DL",
-      "labels": "Deep Learning (DL)",
+      "labels": "DL",
       "parents": "Hard Skills-Machine Learning and AI"
     },
     {
       "ids": "Machine Learning and AI-NLP",
-      "labels": "Natural Language Processing (NLP)",
+      "labels": "NLP",
       "parents": "Hard Skills-Machine Learning and AI"
     },
     {
