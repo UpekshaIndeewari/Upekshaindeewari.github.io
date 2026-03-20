@@ -338,56 +338,43 @@
     {
       "ids": "NLP-YAKE",
       "labels": "YAKE",
-      "parents": "NLP-Keyphrase Extraction"
+      "parents": "Machine Learning and AI-NLP"
     },
     {
       "ids": "NLP-KeyBERT",
       "labels": "KeyBERT",
-      "parents": "NLP-Keyphrase Extraction"
+      "parents": "Machine Learning and AI-NLP"
     },
     {
       "ids": "NLP-PatternRank",
       "labels": "PatternRank",
-      "parents": "NLP-Keyphrase Extraction"
-    },
-    
-    {
-      "ids": "NLP-Semantic Similarity",
-      "labels": "Semantic Similarity",
       "parents": "Machine Learning and AI-NLP"
     },
     {
       "ids": "NLP-Cosine",
       "labels": "Cosine Similarity",
-      "parents": "NLP-Semantic Similarity"
+      "parents": "Machine Learning and AI-NLP"
     },
     {
       "ids": "NLP-Jaro Winkler",
       "labels": "Jaro-Winkler",
-      "parents": "NLP-Semantic Similarity"
+      "parents": "Machine Learning and AI-NLP"
     },
     {
       "ids": "NLP-LSA",
       "labels": "LSA",
-      "parents": "NLP-Semantic Similarity"
+      "parents": "Machine Learning and AI-NLP"
     },
     {
       "ids": "NLP-Word2Vec",
       "labels": "Word2Vec",
-      "parents": "NLP-Semantic Similarity"
-    },
-    
-    {
-      "ids": "NLP-Text Preprocessing",
-      "labels": "Text Preprocessing",
       "parents": "Machine Learning and AI-NLP"
     },
     {
       "ids": "NLP-NLTK",
       "labels": "NLTK",
-      "parents": "NLP-Text Preprocessing"
+      "parents": "Machine Learning and AI-NLP"
     },
-    
     {
       "ids": "NLP-spaCy",
       "labels": "spaCy",
