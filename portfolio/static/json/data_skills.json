@@ -296,10 +296,124 @@
       "parents": "Hard Skills-Computer Aided Design"
     },
     {
-      "ids": "Machine Learning-Scikit Learn",
-      "labels": "Scikit Learn",
-      "parents": "Hard Skills-Machine Learning"
+      "ids": "Hard Skills-Machine Learning and AI",
+      "labels": "Machine Learning & AI",
+      "parents": "Skills"
     },
+    {
+      "ids": "Machine Learning and AI-ML",
+      "labels": "Machine Learning (ML)",
+      "parents": "Hard Skills-Machine Learning and AI"
+    },
+    {
+      "ids": "Machine Learning and AI-DL",
+      "labels": "Deep Learning (DL)",
+      "parents": "Hard Skills-Machine Learning and AI"
+    },
+    {
+      "ids": "Machine Learning and AI-NLP",
+      "labels": "Natural Language Processing (NLP)",
+      "parents": "Hard Skills-Machine Learning and AI"
+    },
+    
+    /* ML Libraries & Tools */
+    {
+      "ids": "ML-Scikit Learn",
+      "labels": "Scikit Learn",
+      "parents": "Machine Learning and AI-ML"
+    },
+    {
+      "ids": "ML-XGBoost",
+      "labels": "XGBoost",
+      "parents": "Machine Learning and AI-ML"
+    },
+    
+    /* DL Libraries & Tools */
+    {
+      "ids": "DL-TensorFlow",
+      "labels": "TensorFlow",
+      "parents": "Machine Learning and AI-DL"
+    },
+    {
+      "ids": "DL-Keras",
+      "labels": "Keras",
+      "parents": "Machine Learning and AI-DL"
+    },
+    {
+      "ids": "DL-PyTorch",
+      "labels": "PyTorch",
+      "parents": "Machine Learning and AI-DL"
+    },
+    
+    /* NLP Section */
+    {
+      "ids": "NLP-Keyphrase Extraction",
+      "labels": "Keyphrase Extraction",
+      "parents": "Machine Learning and AI-NLP"
+    },
+    {
+      "ids": "NLP-YAKE",
+      "labels": "YAKE",
+      "parents": "NLP-Keyphrase Extraction"
+    },
+    {
+      "ids": "NLP-KeyBERT",
+      "labels": "KeyBERT",
+      "parents": "NLP-Keyphrase Extraction"
+    },
+    {
+      "ids": "NLP-PatternRank",
+      "labels": "PatternRank",
+      "parents": "NLP-Keyphrase Extraction"
+    },
+    
+    {
+      "ids": "NLP-Semantic Similarity",
+      "labels": "Semantic Similarity",
+      "parents": "Machine Learning and AI-NLP"
+    },
+    {
+      "ids": "NLP-Cosine",
+      "labels": "Cosine Similarity",
+      "parents": "NLP-Semantic Similarity"
+    },
+    {
+      "ids": "NLP-Jaro Winkler",
+      "labels": "Jaro-Winkler",
+      "parents": "NLP-Semantic Similarity"
+    },
+    {
+      "ids": "NLP-LSA",
+      "labels": "LSA",
+      "parents": "NLP-Semantic Similarity"
+    },
+    {
+      "ids": "NLP-Word2Vec",
+      "labels": "Word2Vec",
+      "parents": "NLP-Semantic Similarity"
+    },
+    
+    {
+      "ids": "NLP-Text Preprocessing",
+      "labels": "Text Preprocessing",
+      "parents": "Machine Learning and AI-NLP"
+    },
+    {
+      "ids": "NLP-NLTK",
+      "labels": "NLTK",
+      "parents": "NLP-Text Preprocessing"
+    },
+    
+    {
+      "ids": "NLP-spaCy",
+      "labels": "spaCy",
+      "parents": "Machine Learning and AI-NLP"
+    },
+    {
+      "ids": "NLP-LLM",
+      "labels": "Large Language Models (LLMs)",
+      "parents": "Machine Learning and AI-NLP"
+    }
     {
       "ids": "ArcGIS Suite-ArcGIS Online",
       "labels": "ArcGIS Online",
