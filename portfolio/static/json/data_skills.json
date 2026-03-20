@@ -106,7 +106,7 @@
       "parents": "Skills"
     },
     {
-      "ids": "Hard Skills-Machine Learning",
+      "ids": "Hard Skills-Machine Learning and AI",
       "labels": "Machine Learning",
       "parents": "Skills"
     },
@@ -271,6 +271,11 @@
       "parents": "Hard Skills-Cloud"
     },
     {
+      "ids": "Cloud-AWS",
+      "labels": "Google Earth Engine",
+      "parents": "Hard Skills-Cloud"
+    },
+    {
       "ids": "Mathematics-Calculus",
       "labels": "Calculus",
       "parents": "Hard Skills-Mathematics"
@@ -296,11 +301,6 @@
       "parents": "Hard Skills-Computer Aided Design"
     },
     {
-      "ids": "Hard Skills-Machine Learning and AI",
-      "labels": "Machine Learning & AI",
-      "parents": "Skills"
-    },
-    {
       "ids": "Machine Learning and AI-ML",
       "labels": "Machine Learning (ML)",
       "parents": "Hard Skills-Machine Learning and AI"
@@ -315,28 +315,14 @@
       "labels": "Natural Language Processing (NLP)",
       "parents": "Hard Skills-Machine Learning and AI"
     },
-    
-    /* ML Libraries & Tools */
     {
       "ids": "ML-Scikit Learn",
       "labels": "Scikit Learn",
       "parents": "Machine Learning and AI-ML"
     },
     {
-      "ids": "ML-XGBoost",
-      "labels": "XGBoost",
-      "parents": "Machine Learning and AI-ML"
-    },
-    
-    /* DL Libraries & Tools */
-    {
       "ids": "DL-TensorFlow",
       "labels": "TensorFlow",
-      "parents": "Machine Learning and AI-DL"
-    },
-    {
-      "ids": "DL-Keras",
-      "labels": "Keras",
       "parents": "Machine Learning and AI-DL"
     },
     {
@@ -344,8 +330,6 @@
       "labels": "PyTorch",
       "parents": "Machine Learning and AI-DL"
     },
-    
-    /* NLP Section */
     {
       "ids": "NLP-Keyphrase Extraction",
       "labels": "Keyphrase Extraction",
