@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
                "An end-to-end web application for automatic extraction, analysis, and visualization of disaster-related information from textual reports. Leveraged web scraping, NLP, LLMs, geocoding, and interactive geospatial visualizations to deliver actionable insights for disaster management.",
             image: "static/images/projects/disaster.png",
             link: "https://github.com/UpekshaIndeewari/GeoNLP_Disaster_Analyzer",
-            category: ["geospatial-technology", "data-science"],
+            category: ["Remote Sensing & GIS", "NLP"],
             tools: ["NLP", "LLM", "Python","Flask","BeautifulSoup","Geopy", "Folium","Plotly"],
          },
          {
