@@ -272,7 +272,7 @@
     },
     {
       "ids": "Cloud-AWS",
-      "labels": "Google Earth Engine",
+      "labels": "AWS",
       "parents": "Hard Skills-Cloud"
     },
     {
@@ -384,7 +384,7 @@
       "ids": "NLP-LLM",
       "labels": "Large Language Models (LLMs)",
       "parents": "Machine Learning and AI-NLP"
-    }
+    },
     {
       "ids": "ArcGIS Suite-ArcGIS Online",
       "labels": "ArcGIS Online",
